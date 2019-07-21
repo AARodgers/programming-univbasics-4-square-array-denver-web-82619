@@ -1,11 +1,9 @@
-def output_array_elements(array)
- while counter < array.length do
-   puts array[counter * counter]
-   counter += 1
- end
+
+def square_array(array)
+  squared = []
+  array.each { |element| squared << element ** 2 }
+  squared
 end
-
-
 
  
  

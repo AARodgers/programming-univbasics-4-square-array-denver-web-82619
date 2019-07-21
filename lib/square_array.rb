@@ -1,10 +1,11 @@
 
 def square_array(array)
-  squared = []
+  array.length.times { |index|
+ puts array.each { |element| squared << element ** 2 }
+}
+
   
-  array.each { |element| squared << element ** 2 }
-  squared
-end
+  
 
  
  

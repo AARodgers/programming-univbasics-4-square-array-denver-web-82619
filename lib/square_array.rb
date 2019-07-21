@@ -1,6 +1,6 @@
-def output_array_elements(array, numbers)
+def output_array_elements(array)
  while counter < array.length do
-   puts square_array(numbers)
+   puts array.each.square
    counter += 1
  end
 end

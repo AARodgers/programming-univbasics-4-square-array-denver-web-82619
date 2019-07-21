@@ -1,9 +1,7 @@
 def output_array_elements(array)
  while counter < array.length do
-   puts array.each { |n| puts n*n }
+   puts square_array
    counter += 1
- new_array = array.each { |n| puts n*n }
- new_array
  end
 end
 

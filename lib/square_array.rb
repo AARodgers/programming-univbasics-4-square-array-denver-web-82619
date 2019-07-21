@@ -1,6 +1,9 @@
 
 def square_array(array)
-  array.map { |num| num**2 }
+  counter = 0
+  while counter < array.length do
+    puts square_array
+    
 end
 
   
